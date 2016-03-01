@@ -49,7 +49,7 @@ def prepare_where(where):
     return where_text, value_dict
 
 
-class NoRM(object):
+class nocql(object):
 
     def __init__(self, session, keyspace=None):
         self.session = session
