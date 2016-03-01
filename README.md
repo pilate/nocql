@@ -5,6 +5,8 @@ Simple abstraction for CQL queries
 
 ```python
 import nocql
+
+
 n = nocql.nocql(session)
 
 n.select(keyspace="testkeyspace", table="testtable")
